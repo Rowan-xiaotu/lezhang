@@ -1,0 +1,183 @@
+/* header */ 
+.header{
+    height: 90px;
+    line-height: 90px;
+    background: #000;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header a{
+    color: #fff;
+    margin: 0 auto;
+    padding: 4px 8px;
+}
+
+.header .active{
+    background: green;
+    border-radius: 6px;
+}
+
+body{
+    background: #f5f5f5;
+}
+
+/* music */
+
+.music{
+    height: 466px;
+    background: #fff;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.music-title{
+    height: 70px;
+    line-height: 70px;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+.music-content{
+    height: 260px;
+    background: #999;
+    padding: 40px;
+}
+
+.music-content img{
+    float: left;
+    width: 260px;
+    height: 260px;
+    padding-right: 20px;
+
+}
+
+.music-content .info{
+    color: #fff;
+    line-height: 26px;
+    letter-spacing: 2px;
+}
+
+
+/* 播放按钮样式 */
+
+.music-bottom{
+    height: 56px;
+    line-height: 56px;
+    padding-right: 20px;
+    padding-left: 30px;
+}
+
+.music-bottom>div{
+    float: left;
+}
+
+.play-btn{
+    border: 1px solid #bbb;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-top: 8px;
+    position: relative;
+    margin-right: 30px;
+}
+
+.play-btn img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -8px;
+    margin-left: -8px;
+    height: 16px;
+    width: 16px;
+}
+
+.progress{
+    width: 900px;
+    height: 10px;
+    margin-top: 23px;
+    background: #bbb;
+    margin-right: 30px;
+    margin-left: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.progress-bar{
+    width: 0%;
+    height: 10px;
+    background: green;
+}
+
+/* artcile-left */
+
+.article-left{
+    width: 870px;
+    min-height: 400px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+    padding: 30px;
+}
+
+.article-title{
+    text-align: center;
+    padding-bottom: 30px;
+    font-size: 22px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 30px;
+}
+
+.article-info{
+    font-family: "Microsoft YaHei", Arial , Helvetica, sans-serif ;
+    color: rgb(102, 102, 102);
+    letter-spacing: 2px;
+    line-height: 25px;
+}
+
+.height{
+    height: 40px;
+}
+
+/* 登录 */
+
+
+.header-info{
+    float: right;
+    color: #fff;
+}
+
+.wrapper{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.content{
+    width: 300px;
+    height: 240px;
+    padding: 40px;
+    margin:80px auto;
+    background: #fff;
+}
+
+.content p{
+    margin-top: 10px;
+}
+
+.content span{
+    padding: 4px 6px;
+    background: #dfdbdb;
+}
